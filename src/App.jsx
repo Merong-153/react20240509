@@ -1,15 +1,10 @@
 import React from 'react';
-
-
-function MyButton(props){
-    return <button>{props.children}</button>
-}
+import {MyComp} from "./MyComp.jsx";
 
 function App(props) {
     return (
         <div>
-            <MyButton>클릭1</MyButton>
-            <MyButton>클릭2</MyButton>
+            <MyComp/>
         </div>
     );
 }
